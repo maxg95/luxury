@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    font-size: inherit;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: #ffffff;
+}
+
+body {
+    line-height: 2;
+    color: #333333;
+    font-size: 1.7vh;
+    overflow-y: scroll;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 100vh;
+    padding: 4vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 2vh;
+    color: #ffffff;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/static/img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    color: transparent;
+    text-align: center;
+    position: relative; 
+}
+
+.contact-links {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.map-and-links {
+    margin-top: 0.1vw;
+    margin-bottom: 0.1vw;
+}
+
+h1 {
+    font-size: 3.5vh;
+    text-align: center;
+    color: #f7ca36;
+    margin-top: -1vh;
+}
+
+h2 {
+    font-size: 2vh;
+    text-align: center;
+    color: #333333;
+    margin-top: -0.2vh;
+    margin-bottom: -0.2vh;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 3vh;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 2.5vh;
+}
+
+.header-link {
+    font-size: 7vh;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-link {
+    color: #f7ca36;
+    text-decoration: none;
+}
+
+.footer-h2 {
+    color: #ffffff;
+    font-size: 3.5vh;
+    font-weight: lighter;
+}
+
+.footer-p {
+    color: #ffffff;
+    font-size: 2vh;
+    font-weight: lighter;
+}
+
+.common-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('/static/img/footer.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.common-background-main {
+    background-image: url('/static/img/common-main.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    position: relative;
+    margin-left: 0.2vw;
+    margin-right: 0.2vw;
+}
+
+.body-text {
+    height: 70vh;
+    font-size: 1.75vh;
+    font-weight: lighter;
+    overflow-y: scroll;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 2vh;
+    box-sizing: border-box;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+form#requestForm {
+    max-width: 31.25rem;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 2.5vh;
+    border-radius: 0px;
+    margin-top: 7vh;
+    margin-bottom: 2vh;
+}
+
+form#requestForm div {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+form#requestForm label {
+    display: block;
+    text-align: center;
+    font-size: 3.5vh;
+    font-weight: lighter;
+    margin-bottom: 1vh;
+    color: #ffffff;
+}
+
+form#requestForm input[type='text'] {
+    width: 100%;
+    padding: 2vh;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 0px;
+    border-color: #ffffff;
+    border-width: 0.02vh;
+    border-style: solid;
+    margin-bottom: 0%;
+}
+
+form#requestForm input[type='submit'] {
+    width: 100%;
+    height: 12vh;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 0px;
+    border-color: #ffffff;
+    border-width: 0.02vh;
+    border-style: solid;
+    cursor: pointer;
+    font-size: 2vh;
+    font-weight: lighter;
+}
+
+::placeholder {
+    color: #ffffff;
+    font-size: 2vh;
+    font-weight: lighter;
+}
+
+.copyright-notice {
+    position: absolute;
+    bottom: 1vh;
+    width: 100%;
+    color: #ffffff;
+}
+
+.main-one {
+    flex: 1;
+    overflow: hidden;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+}
+
+#main-one-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main-two {
+    flex: 1;
+    overflow: hidden;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#main-two-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main-three {
+    flex: 1;
+    overflow: hidden;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+#main-three-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main-four {
+    flex: 1;
+    overflow: hidden;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#main-four-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
