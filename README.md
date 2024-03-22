@@ -1,4 +1,4 @@
-# Luxury Maxg95 Application
+# Luxury Maxg95 Application 
 
 ## Overview
 
